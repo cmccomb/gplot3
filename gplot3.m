@@ -17,11 +17,6 @@ function [Xout,Yout,Zout]=gplot3(A,xyz,lc)
 %   can be used to generate the plot at a later time if desired.  As a
 %   result, the two argument output case is only valid when xyz is of type
 %   single or double.
-%   
-%   See also SPY, TREEPLOT.
-
-%   John Gilbert
-%   Copyright 1984-2013 The MathWorks, Inc. 
 
 [i,j] = find(A);
 [~, p] = sort(max(i,j));
