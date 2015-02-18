@@ -32,10 +32,6 @@ X = [ xyz(i,1) xyz(j,1)]';
 Y = [ xyz(i,2) xyz(j,2)]';
 Z = [ xyz(i,3) xyz(j,3)]';
 
-size(X)
-size(Y)
-size(Z)
-
 if isfloat(xyz) || nargout ~= 0
     X = [X; NaN(size(i))'];
     Y = [Y; NaN(size(i))'];
