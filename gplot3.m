@@ -12,6 +12,7 @@ function [X, Y, Z] = gplot3(A, xyz, linespec)
 % If no arguments given, then run buckminster sphere example
 if nargin == 0
     [A, xyz] = bucky;
+    nargin = 2;
 end
 
 % If only one argument given, throw error.
