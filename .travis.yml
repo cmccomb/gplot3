@@ -1,0 +1,9 @@
+language: cpp
+
+compiler: g++
+
+before_script:
+  - apt-get install octave
+
+script: 
+  - octave gplot3
