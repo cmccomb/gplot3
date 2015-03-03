@@ -4,8 +4,9 @@ compiler: g++
 
 before_script:
   - sudo apt-get install octave
+  - echo "#! /bin/octave -qf"
+  - echo "gplot3()"
 
 script: 
-  - ls
-  - octave gplot3.m
+  - octave temp.m
 
