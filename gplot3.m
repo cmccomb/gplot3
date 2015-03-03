@@ -12,7 +12,7 @@ function h = gplot3(A, xyz, varargin)
 %   for line properties
 
     % If no arguments given, then run buckminster sphere example
-    if nargin == 0asdf52
+    if nargin == 0
         [A, xyz] = bucky;
     end
 
