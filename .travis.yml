@@ -6,5 +6,6 @@ before_script:
   - sudo apt-get install octave
 
 script: 
-  - octave gplot3
+  - ls
+  - octave gplot3.m
 
