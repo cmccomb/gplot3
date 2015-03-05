@@ -8,5 +8,5 @@ before_script:
   - sudo apt-get install octave
 
 script: 
-  - octave test.m
+  - octave test_gplot3.m
 
