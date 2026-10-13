@@ -21,6 +21,10 @@ function h = gplot3(A, xyz, varargin)
         error('Please provide an adjacency matrix and coordinate array');
     end
 
+    if size(A,1) ~= size(A,2) || size(xyz,1) ~= size(A,1) || size(xyz,2) ~= 3
+        error('A must be square and xyz must contain one 3D row per node.');
+    end
+
     % Returns i and j, lists of connected nodes
     [i,j] = find(A);
 
