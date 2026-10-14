@@ -1,14 +1,14 @@
 function h = gplot3(A, xyz, varargin)
-%GPLOT Plot graph (nodes and edges).
-%   GPLOT(A, xyz) plots the graph specified by the adjacency matrix,
+%GPLOT3 Plot graph edges in three dimensions.
+%   GPLOT3(A, xyz) plots the graph specified by the adjacency matrix,
 %   A, and the n-by-3 coordinate array, xyz.
 %   
-%   GPLOT(A, xyz, linespec) uses line type and color specified in the
+%   GPLOT3(A, xyz, linespec) uses line type and color specified in the
 %   string LineSpec. See PLOT for possibilities.
 %
-%   h = GPLOT(A, xyz) returns the a handle to the graph.
+%   h = GPLOT3(A, xyz) returns a handle to the plotted line.
 %   
-%   h = GPLOT(A, xyz, 'LineWidth', 5, ...) also takes arbitrary arguments
+%   h = GPLOT3(A, xyz, 'LineWidth', 5, ...) also takes arbitrary arguments
 %   for line properties
 
     % If no arguments given, then run buckminster sphere example

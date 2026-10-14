@@ -17,6 +17,11 @@ one row and three coordinates per node. Every nonzero matrix entry is drawn;
 a symmetric adjacency matrix therefore draws each undirected edge twice.
 Call `gplot3` without arguments for MATLAB's built-in buckyball example.
 
+For MATLAB versions with graph objects, the native alternative is
+`plot(graph(A), 'XData', xyz(:,1), 'YData', xyz(:,2), 'ZData', xyz(:,3))`.
+Use `gplot3` when you want a single 3D line object from an adjacency matrix
+or need the older `gplot`-style interface.
+
 Run `test_gplot3` from this folder to check basic plotting and input handling.
 The GitHub Actions workflow runs it on pushes and pull requests.
 
