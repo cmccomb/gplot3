@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it with this metadata."
+type: software
+title: "gplot3: Plotting Simple Graphs in 3D"
+authors:
+  - family-names: McComb
+    given-names: Chris
+repository-code: "https://github.com/cmccomb/gplot3"
+license: BSD-3-Clause
